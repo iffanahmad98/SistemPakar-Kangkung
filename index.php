@@ -155,7 +155,7 @@ include 'functions.php';
     <footer class="footer" style="background-color: #336699; color: #fff;">
         <div class="container">
             <p><span class="pull-right">
-              Copyright ©2020 <i class="fa fa-heart pulse"></i> <b><a style="color: #fff" href="http://www.mycoding.net" target="_blank">My Coding</a></b>
+              Copyright ©2022 <i class="fa fa-heart pulse"></i> <b><a style="color: #fff" href="https://github.com/iffanahmad98/SistemPakar-Kangkung" target="_blank">Iffan Ahmad</a></b>
           </span></p>
         </div>
     </footer>
