@@ -106,4 +106,31 @@ $count = $db->get_var("SELECT COUNT(*) FROM tb_konsultasi");
                 <?php endforeach ?>
             </div>
         </div>
-        
+    <?php include 'konsultasi_hasil.php';
+    else : ?>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title" align="center">Jawablah pertanyaan berikut ini <b>[<?= $row->kode_gejala ?>]</b></h3>
+            </div>
+            <div class="panel-body" style="background-color: #535c68; color: #fff;">
+                <h3 align="center">Apakah <b><?= strtolower($row->nama_gejala) ?>?</b></h3>
+                <form action="aksi.php?m=konsultasi" method="post">
+                    <input type="hidden" name="kode_gejala" value="<?= $row->kode_gejala ?>" />
+                    <p>&nbsp;</p>
+                    <p align="center">
+                        <button name="yes" class="btn tambah" value="1"><span class="glyphicon glyphicon-ok-sign"></span> Ya</button>
+                        <button name="no" class="btn tambah" value="1"><span class="glyphicon glyphicon-remove-sign"></span> Tidak</button>
+
+                        <?php if ($count) : ?>
+                            <br><br>
+                            <a class="btn btn-danger hapus" href="aksi.php?m=konsultasi&act=new"><span class="glyphicon glyphicon-ban-circle"></span> Batal</a>
+                        <?php endif ?>
+                    </p>
+                </form>
+            </div>
+        </div>
+    <?php endif ?>
+
+</body>
+
+</html>
