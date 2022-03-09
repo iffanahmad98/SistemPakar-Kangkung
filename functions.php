@@ -8,7 +8,7 @@ require_once "parser-php-version.php";
 $config["server"] = 'localhost';
 $config["username"] = 'root';
 $config["password"] = '';
-$config["database_name"] = 'spforward1';
+$config["database_name"] = 'spkangkung';
 
 include 'includes/db.php';
 $db = new DB($config['server'], $config['username'], $config['password'], $config['database_name']);
