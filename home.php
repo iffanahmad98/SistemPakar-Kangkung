@@ -56,7 +56,8 @@
         <br />
         <br />
         <h1 class="c"><b>Sistem Pakar</b></h1>
-        <h2 class="c"><b>Identifikasi Penyakit</b></h2>
+        <h2 class="c"><b>Identifikasi Hama & Penyakit</b></h2>
+        <h3 class="c"><b>Tanaman Kangkung</b></h3>
         <br />
         <br />
         <br />
