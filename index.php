@@ -152,7 +152,7 @@ include 'functions.php';
             ?>
         </div>
     </div>
-    <footer class="footer" style="background-color: #336699; color: #fff;">
+    <footer class="footer" style="background-color: #041f06; color: #fff;">
         <div class="container">
             <p><span class="pull-right">
               Copyright ©2022 <i class="fa fa-heart pulse"></i> <b><a style="color: #fff" href="https://github.com/iffanahmad98/SistemPakar-Kangkung" target="_blank">Iffan Ahmad</a></b>
