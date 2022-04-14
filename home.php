@@ -37,7 +37,7 @@
         }
 
         .tombol {
-            background-color: #336699;
+            background-color: #17a836;
             color: #fff;
             border-radius: 8px;
         }
