@@ -24,7 +24,7 @@
                 <thead>
                     <tr class="nw">
                         <th>No</th>
-                        <th>Penyakit</th>
+                        <th>Hama Penyakit</th>
                         <th>Gejala</th>
                         <th>Aksi</th>
                     </tr>

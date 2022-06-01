@@ -46,7 +46,7 @@
                         <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="pass" />
                     </div>
                     <div class="form-group">
-                        <button class="btn edit" type="submit"><span class=""></span> Masuk</button>
+                        <button class="btn edit" type="submit"><span class=""></span> Login</button>
                     </div>
                 </form>
             </div>

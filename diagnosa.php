@@ -1,6 +1,6 @@
 <body class="latar">
     <div class="page-header">
-        <h1 style="color: #fff;" align="center"><b>Penyakit</b></h1>
+        <h1 style="color: #fff;" align="center"><b>Hama Penyakit</b></h1>
     </div>
     <div class="panel panel-default">
         <div class="panel-heading" align="right">
@@ -25,7 +25,7 @@
                     <tr class="nw">
                         <th>No</th>
                         <th>Kode</th>
-                        <th>Nama Penyakit</th>
+                        <th>Nama Hama Penyakit</th>
                         <th>Penyebab</th>
                         <th width="550">Solusi</th>
                         <th>Aksi</th>

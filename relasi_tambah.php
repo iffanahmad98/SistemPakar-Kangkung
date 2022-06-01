@@ -7,7 +7,7 @@
             <?php if ($_POST) include 'aksi.php' ?>
             <form method="post">
                 <div class="form-group">
-                    <label style="color: #fff;">Penyakit <span class="text-danger">*</span></label>
+                    <label style="color: #fff;">Hama Penyakit<span class="text-danger">*</span></label>
                     <select class="form-control" name="kode_diagnosa">
                         <option value="">&nbsp;</option>
                         <?= CF_get_diagnosa_option(set_value('kode_diagnosa')) ?>

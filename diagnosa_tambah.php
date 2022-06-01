@@ -11,7 +11,7 @@
                     <input class="form-control" type="text" name="kode" value="<?= set_value('kode', kode_oto('kode_diagnosa', 'tb_diagnosa', 'P', 2)) ?>" />
                 </div>
                 <div class="form-group">
-                    <label style="color: #fff;">Nama Penyakit <span class="text-danger">*</span></label>
+                    <label style="color: #fff;">Nama Hama Penyakit <span class="text-danger">*</span></label>
                     <input class="form-control" type="text" name="nama" value="<?= set_value('nama') ?>" />
                 </div>
                 <div class="form-group">

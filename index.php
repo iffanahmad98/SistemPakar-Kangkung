@@ -125,7 +125,7 @@ include 'functions.php';
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <?php if ($_SESSION['login']) : ?>
-                        <li><a href="?m=diagnosa" class="t"><b>PENYAKIT</b></a></li>
+                        <li><a href="?m=diagnosa" class="t"><b>HAMA PENYAKIT</b></a></li>
                         <li><a href="?m=gejala" class="t"><b>GEJALA</b></a></li>
                         <li><a href="?m=relasi" class="t"><b>PENGETAHUAN</b></a></li>
                         <li><a href="?m=rule" class="t"><b>ATURAN</b></a></li>
